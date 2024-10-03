@@ -9,7 +9,7 @@ export const useCount = (initialValue: number) => {
 		setValue((prevValue) => prevValue + 1);
 	};
 	const decrement = () => {
-		if (value < 2) return setErrorMsj('cannot decrement to negative numbers');
+		if (value < 1) return setErrorMsj('cannot decrement to negative numbers');
 		setValue((preValue) => preValue - 1);
 	};
 
