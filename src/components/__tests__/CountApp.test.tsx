@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import CountApp from './CountApp';
+import CountApp from '../CountApp';
 
 describe('CountApp', () => {
 	it('should display initial value', () => {
